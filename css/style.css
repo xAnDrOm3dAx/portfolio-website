@@ -1,0 +1,91 @@
+  /*------------------------------------*\
+  #LAYOUT
+  \*------------------------------------*/
+  
+html {
+    background-color: black;
+}
+
+
+body {
+    min-height: 100vh;
+    background-color: #FFFF;
+  }
+
+main {
+    width: 100%;
+    max-width: 640px;
+    padding: 0 24px 32px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    max-width: 640px;
+    padding: 8px 20px;
+    margin: 0 auto 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+  /* body {
+    background: #1C1C1C;
+    min-height: 100vh;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+  }
+  
+  main {
+    width: 100%;
+    max-width: 550px;
+    padding: 118px 52px 46px 52px;
+    background: #1F2937;
+  } */
+  
+  /*------------------------------------*\
+  #TYPOGRAPHY
+  \*------------------------------------*/
+  
+  h1 {
+    
+}
+  
+  /*------------------------------------*\
+  #COMPONENTS
+  \*------------------------------------*/
+  
+  
+  
+  /*------------------------------------*\
+  #MEDIA QUERIES
+  \*------------------------------------*/
+  
+  
+ 
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
