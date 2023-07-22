@@ -1,38 +1,44 @@
-  /*------------------------------------*\
+/*------------------------------------*\
   #LAYOUT
   \*------------------------------------*/
-  
+
 html {
-    background-color: black;
+  background-color: black;
 }
 
-
 body {
-    min-height: 100vh;
-    background-color: #FFFF;
-  }
+  min-height: 100vh;
+  background-color: #ffff;
+}
 
 main {
-    width: 100%;
-    max-width: 640px;
-    padding: 0 24px 32px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 640px;
+  padding: 0 24px 32px;
+  margin: 0 auto;
 }
 
 .header {
-    width: 100%;
-    max-width: 640px;
-    padding: 8px 20px;
-    margin: 0 auto 24px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  max-width: 640px;
+  padding: 8px 20px;
+  margin: 0 auto 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  /* font-family: "Rubik", sans-serif;
+  font-weight: 500; */
 }
 
+.flex-container {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
 
-
-
-  /* body {
+/* body {
     background: #1C1C1C;
     min-height: 100vh;
     color: #FFFFFF;
@@ -48,44 +54,26 @@ main {
     padding: 118px 52px 46px 52px;
     background: #1F2937;
   } */
-  
-  /*------------------------------------*\
+
+/*------------------------------------*\
   #TYPOGRAPHY
   \*------------------------------------*/
-  
-  h1 {
-    
+
+a {
+  text-decoration: none;
+  color: #355070;
 }
-  
-  /*------------------------------------*\
+
+/* a:hover: when the user is hovering on the link
+a:active: when the user is clicking on the link */
+
+h1 {
+}
+
+/*------------------------------------*\
   #COMPONENTS
   \*------------------------------------*/
-  
-  
-  
-  /*------------------------------------*\
+
+/*------------------------------------*\
   #MEDIA QUERIES
   \*------------------------------------*/
-  
-  
- 
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
