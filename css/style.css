@@ -21,7 +21,7 @@ a {
 
 h1 {
   font-family: "Dosis", sans-serif;
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: 700;
 }
 
@@ -44,10 +44,18 @@ p {
   margin-bottom: 15px;
 }
 
+.home-page-hero p {
+  font-size: 1.2rem;
+}
+
 a {
   font-family: "Roboto", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-decoration: none;
+}
+
+.nav-container a {
+  font-size: 1rem;
 }
 
 /* General Layout */
@@ -68,10 +76,7 @@ a {
   margin: 0 auto 24px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-
-  font-weight: 500;
-  /* font-family: "Dosis", sans-serif;
+  align-items: center; /* font-family: "Dosis", sans-serif;
   font-weight: 500; */
 }
 
