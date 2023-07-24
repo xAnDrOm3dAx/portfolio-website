@@ -44,6 +44,24 @@ html * {
   justify-content: space-between;
 }
 
+/* Main */
+
+.selected-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.selected-projects figure {
+  flex: 1;
+}
+
+.selected-projects div {
+  flex: 1;
+}
+
 /* Typography */
 
 a {
