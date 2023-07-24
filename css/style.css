@@ -54,6 +54,12 @@ html * {
   text-decoration: none;
 }
 
+@media screen and (min-width: 40em) {
+  .selected-projects {
+    flex-direction: row;
+  }
+}
+
 .selected-projects figure {
   flex: 1;
 }
