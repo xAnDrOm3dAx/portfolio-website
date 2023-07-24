@@ -8,7 +8,6 @@
 
 html {
   font-size: 16px;
-  /* font-family: "Dosis", "Roboto", "ABeeZee", sans-serif; */
 }
 
 h1,
@@ -21,8 +20,7 @@ a {
 
 h1 {
   font-family: "Dosis", sans-serif;
-  font-size: 2.4rem;
-  font-weight: 700;
+  font-size: 3.4rem;
 }
 
 h2 {
@@ -44,21 +42,12 @@ p {
   margin-bottom: 15px;
 }
 
-.home-page-hero p {
-  font-size: 1.2rem;
-}
-
 a {
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
-  text-decoration: none;
 }
 
-.nav-container a {
-  font-size: 1rem;
-}
-
-/* General Layout */
+/* Page Layout */
 
 .container {
   width: 100%;
@@ -86,13 +75,44 @@ a {
   justify-content: space-between;
 }
 
-/* Main */
+.nav-container a {
+  font-size: 1rem;
+}
+
+/* Main - Hero */
+
+.home-page-hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 40em) {
+  .home-page-hero h1 {
+    font-family: "Dosis", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
+
+/* Main - Projects */
+
+.projects-showcase h2 {
+  margin-bottom: 15px;
+}
 
 .selected-projects {
   display: flex;
   flex-direction: column;
   gap: 15px;
   margin-bottom: 15px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 5px 16px 0px rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 @media screen and (min-width: 40em) {
