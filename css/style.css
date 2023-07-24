@@ -4,6 +4,42 @@
   --main-text-color: #161e40;
 }
 
+/* Typography */
+
+html {
+  font-size: 16px;
+  /* font-family: "Dosis", "Roboto", "ABeeZee", sans-serif; */
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Dosis", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+a,
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+a,
+h2,
+h3,
+p {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
 /* Layout */
 
 body {
@@ -18,10 +54,6 @@ body {
   margin: 0 auto;
 }
 
-html * {
-  font-family: "Roboto", "Dosis", "ABeeZee", sans-serif;
-}
-
 /* Header */
 
 .header {
@@ -32,7 +64,7 @@ html * {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "Roboto", sans-serif;
+
   font-weight: 500;
   /* font-family: "Dosis", sans-serif;
   font-weight: 500; */
@@ -68,23 +100,9 @@ html * {
   flex: 1;
 }
 
-/* Typography */
-
-a {
-  text-decoration: none;
-}
-
-a,
-h2,
-h3,
-p {
-  color: var(--main-text-color);
-}
-
-h1 {
-  font-family: "Dosis", sans-serif;
-  font-size: 2.3rem;
-  font-weight: 700;
+.selected-projects figure img {
+  max-width: 100%;
+  border-radius: 5px;
 }
 
 /* Media Queries */
