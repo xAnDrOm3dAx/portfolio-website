@@ -142,11 +142,11 @@ a {
 }
 
 /* Profile specific */
-.profile p,
-.profile h2 {
+.sub-pages p,
+.sub-pages h2 {
   margin: 20px 0;
 }
 
-.profile span {
+.sub-pages span {
   color: #8338ec;
 }
