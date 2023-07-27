@@ -25,30 +25,12 @@ h1 {
   font-size: 3rem;
 }
 
-@media screen and (max-width: 40em) {
-  h1 {
-    font-size: 2.2rem;
-  }
-}
-
 h2 {
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 40em) {
-  h2 {
-    font-size: 1.3rem;
-  }
-}
-
 h3 {
   font-size: 1.3rem;
-}
-
-@media screen and (max-width: 40em) {
-  h3 {
-    font-size: 1.1rem;
-  }
 }
 
 p,
@@ -58,24 +40,10 @@ a {
   font-size: 1.2rem;
 }
 
-@media screen and (max-width: 40em) {
-  p,
-  a {
-    font-size: 1rem;
-  }
-}
-
 .home-page-hero p,
 .home-page-hero a {
   font-size: 1.2rem;
   margin: 30px 0;
-}
-
-@media screen and (max-width: 40em) {
-  .home-page-hero p,
-  .home-page-hero a {
-    font-size: 1rem;
-  }
 }
 
 .projects-showcase h2 {
@@ -121,13 +89,6 @@ a {
   font-size: 1.2rem;
 }
 
-@media screen and (max-width: 40em) {
-  .logo,
-  .nav-container a {
-    font-size: 1rem;
-  }
-}
-
 /* Home Page - Projects */
 
 .selected-projects {
@@ -140,12 +101,6 @@ a {
   box-shadow: 0px 5px 16px 0px rgba(31, 38, 135, 0.37);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-}
-
-@media screen and (min-width: 40em) {
-  .selected-projects {
-    flex-direction: row;
-  }
 }
 
 .selected-projects figure,
@@ -180,4 +135,36 @@ a {
 
 .sub-pages span {
   color: #8338ec;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 40em) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+  p,
+  a {
+    font-size: 1rem;
+  }
+  .home-page-hero p,
+  .home-page-hero a {
+    font-size: 1rem;
+  }
+  .logo,
+  .nav-container a {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .selected-projects {
+    flex-direction: row;
+  }
 }
