@@ -78,6 +78,10 @@ a {
   justify-content: space-between;
 }
 
+.logo {
+  margin-right: 15px;
+}
+
 .logo,
 .nav-container a {
   font-size: 1.2rem;
