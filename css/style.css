@@ -141,7 +141,17 @@ a {
   border-radius: 5px;
 }
 
-/* Profile specific */
+.icon-links {
+  display: flex;
+  gap: 20px;
+}
+
+.icon-links img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Sub Page Specific */
 .sub-pages p,
 .sub-pages h2 {
   margin: 20px 0;
