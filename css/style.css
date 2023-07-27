@@ -1,6 +1,6 @@
 /* Variables */
 :root {
-  --main-text-color: #161e40;
+  --main-text-color: #000;
   --main-font-family: "Roboto", sans-serif;
   --secondary-font-family: "Raleway", sans-serif;
   --container-width: 100%;
@@ -10,6 +10,7 @@
 /* Typography */
 html {
   font-size: 16px;
+  background-color: #ffff;
 }
 
 h1,
@@ -143,7 +144,7 @@ a {
 
 .icon-links {
   display: flex;
-  gap: 20px;
+  gap: 22px;
 }
 
 .icon-links img {
