@@ -1,7 +1,7 @@
 /* Variables */
 :root {
   --main-text-color: #000;
-  --background-color: #ffff;
+  --main-background-color: #ffff;
   --main-font-family: "Roboto", sans-serif;
   --secondary-font-family: "Raleway", sans-serif;
   --container-width: 100%;
@@ -9,8 +9,8 @@
 }
 
 /* Typography */
-html {
-  background-color: var(--background-color);
+body {
+  background-color: var(--main-background-color);
 }
 
 h1,
@@ -167,11 +167,4 @@ a {
   .selected-projects {
     flex-direction: row;
   }
-}
-
-/* Dark Mode */
-
-.dark-mode {
-  background-color: #000;
-  color: #ffff;
 }
