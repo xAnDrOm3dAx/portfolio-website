@@ -27,7 +27,7 @@ h1 {
 
 @media screen and (max-width: 40em) {
   h1 {
-    font-size: 2.6rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -35,8 +35,20 @@ h2 {
   font-size: 1.5rem;
 }
 
+@media screen and (max-width: 40em) {
+  h2 {
+    font-size: 1.3rem;
+  }
+}
+
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 40em) {
+  h3 {
+    font-size: 1.1rem;
+  }
 }
 
 p,
@@ -49,8 +61,30 @@ a {
 @media screen and (max-width: 40em) {
   p,
   a {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
+}
+
+.home-page-hero p,
+.home-page-hero a {
+  font-size: 1.2rem;
+  margin: 30px 0;
+}
+
+@media screen and (max-width: 40em) {
+  .home-page-hero p,
+  .home-page-hero a {
+    font-size: 1rem;
+  }
+}
+
+.projects-showcase h2 {
+  margin: 30px 0 15px;
+}
+
+.projects-showcase p {
+  font-size: 1rem;
+  margin-top: 15px;
 }
 
 /* Page Layout */
@@ -94,30 +128,7 @@ a {
   }
 }
 
-/* Home Page - Hero */
-.home-page-hero p,
-.home-page-hero a {
-  font-size: 1.2rem;
-  margin: 30px 0;
-}
-
-@media screen and (max-width: 40em) {
-  .home-page-hero p,
-  .home-page-hero a {
-    font-size: 1.1rem;
-  }
-}
-
 /* Home Page - Projects */
-
-.projects-showcase h2 {
-  margin: 30px 0 15px;
-}
-
-.projects-showcase p {
-  font-size: 1rem;
-  margin-top: 15px;
-}
 
 .selected-projects {
   display: flex;
@@ -145,6 +156,11 @@ a {
 .selected-projects img {
   border-radius: 5px;
 }
+
+.view-all {
+  padding-top: 30px;
+}
+/* Get in touch */
 
 .icon-links {
   display: flex;
