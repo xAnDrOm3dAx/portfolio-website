@@ -9,9 +9,6 @@
 }
 
 /* Typography */
-body {
-  background-color: var(--main-background-color);
-}
 
 h1,
 h2,
@@ -52,10 +49,14 @@ a {
 
 .projects-showcase p {
   font-size: 1rem;
-  margin-top: 15px;
 }
 
 /* Page Layout */
+
+body {
+  background-color: var(--main-background-color);
+}
+
 .container {
   width: var(--container-width);
   max-width: var(--max-container-width);
@@ -113,8 +114,9 @@ a {
 }
 
 .view-all {
-  padding-top: 30px;
+  margin: 30px 0 0;
 }
+
 /* Get in touch */
 
 .icon-links {
