@@ -90,6 +90,12 @@ body {
   font-size: 1.2rem;
 }
 
+/* Profile Photo */
+.profile-photo {
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
 /* Home Page - Projects */
 
 .selected-projects {
