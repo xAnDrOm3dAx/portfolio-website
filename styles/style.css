@@ -96,6 +96,10 @@ body {
   margin: 0 auto;
 }
 
+.photo-caption {
+  text-align: center;
+}
+
 /* Home Page - Projects */
 
 .selected-projects {
