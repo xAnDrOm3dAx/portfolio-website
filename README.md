@@ -2,4 +2,6 @@
 
 Personal portfolio project
 
-Colour Pallette: https://coolors.co/palette/355070-6d597a-b56576-e56b6f-eaac8b
+Color Pallette: https://coolors.co/palette/ffbe0b-fb5607-ff006e-8338ec-3a86ff
+Fonts: https://fonts.google.com/specimen/Raleway#styles
+Example: https://alexjpate.com/
