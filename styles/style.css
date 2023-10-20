@@ -59,7 +59,6 @@ a {
 /* Page Layout */
 
 html {
-  margin: 20px;
 }
 
 body {
@@ -74,8 +73,7 @@ body {
 
 /* Header */
 .header {
-  padding: 10px 0px;
-  margin: 0 auto 20px;
+  margin: 20px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -140,14 +138,13 @@ body {
 
 .footer {
   margin: 0 auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin: 20px 0px;
 }
 
 .icon-links {
   display: flex;
   gap: 23px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .icon-links img {
