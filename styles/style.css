@@ -57,12 +57,9 @@ a {
 
 /* Page Layout */
 
-html {
-  padding: 0px 20px;
-}
-
 body {
   background-color: var(--main-background-color);
+  padding: 0px 20px;
 }
 
 .page-wrapper {
