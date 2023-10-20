@@ -4,7 +4,6 @@
   --main-background-color: #ffff;
   --main-font-family: "Roboto", sans-serif;
   --secondary-font-family: "Raleway", sans-serif;
-  --container-width: 100%;
   --max-container-width: 640px;
 }
 
@@ -59,6 +58,7 @@ a {
 /* Page Layout */
 
 html {
+  padding: 0px 20px;
 }
 
 body {
@@ -66,7 +66,6 @@ body {
 }
 
 .page-wrapper {
-  width: var(--container-width);
   max-width: var(--max-container-width);
   margin: 0 auto;
 }
@@ -138,7 +137,7 @@ body {
 
 .footer {
   margin: 0 auto;
-  margin: 20px 0px;
+  margin: 20px 0px 40px;
 }
 
 .icon-links {
