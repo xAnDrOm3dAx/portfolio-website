@@ -4,6 +4,7 @@
   --main-background-color: #ffff;
   --main-font-family: "Roboto", sans-serif;
   --secondary-font-family: "Raleway", sans-serif;
+  --container-width: 100%;
   --max-container-width: 640px;
 }
 
@@ -57,19 +58,24 @@ a {
 
 /* Page Layout */
 
+html {
+  margin: 20px;
+}
+
 body {
   background-color: var(--main-background-color);
-  padding: 0px 20px;
 }
 
 .page-wrapper {
+  width: var(--container-width);
   max-width: var(--max-container-width);
   margin: 0 auto;
 }
 
 /* Header */
 .header {
-  margin: 20px 0px;
+  padding: 10px 0px;
+  margin: 0 auto 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -134,13 +140,14 @@ body {
 
 .footer {
   margin: 0 auto;
-  margin: 20px 0px 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .icon-links {
   display: flex;
   gap: 23px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .icon-links img {
